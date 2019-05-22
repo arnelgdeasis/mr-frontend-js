@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px) {
+
+  .container-base {
+     max-width: 90%;
+  }
+
+  .header-container {
+     > a  {
+        margin-right: 1rem;
+     }
+  }
+
+  .cart-btn {
+    margin-right: 1rem;
+  }
+
+  .dropdown-content {
+    right: 6%;
+  }
+
+  .item-details {
+    flex-direction: column;
+    > div {
+      width: 100%;
+    }
+  }
+
+  .img-con {
+    justify-content: center;
+  }
+
+  .item-image {
+    margin-right: inherit;
+  }
+
+  .item-desc  {
+    .content {
+      padding-left: inherit;
+      margin-top: 2rem;
+    }
+
+    p,h4 {
+      font-size: 16px;
+    }
+  }
+
+}
